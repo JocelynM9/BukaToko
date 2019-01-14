@@ -1,0 +1,38 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+	<link rel="stylesheet" href="themes/Sheryl.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="Home.js"></script>
+</head>
+<body>
+	<div data-role="page" data-theme="a">
+		<div data-role="header" data-position="inline">
+			<h1></h1>
+		</div>
+		<header data-role="header">
+			<h1>Home</h1>
+			<nav data-role="navbar">
+				<ul>
+					<li>
+						<a data-icon="home" href="Home.html" data-ajax="false">List of movies</a>
+					</li>
+					<li>
+						<a data-icon="grid" href="MyMovies.html" data-ajax="false">My Movies</a>
+					</li>
+					<li>
+						<a onclick="logout()" data-icon="delete" data-ajax="false">Logout</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+			
+		</div>
+	</div>
+</body>
+</html>
